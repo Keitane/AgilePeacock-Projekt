@@ -2,6 +2,7 @@
 Library  SeleniumLibrary
 Resource  ../Resources/mainResource.robot
 Resource  ../Resources/confirmSetupResource.robot
+Resource  ../Resources/createModelResource.robot
 Library  ../Scripts/remove_text.py
 Suite Setup  Start WebTest
 Suite Teardown  End WebTest
