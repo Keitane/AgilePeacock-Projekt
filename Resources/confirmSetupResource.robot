@@ -1,8 +1,6 @@
 *** Variables ***
 ${add_model_button}   //*[@id="app"]/div[6]/div[1]/main/div/div/div[1]/nav/div[1]/a/div
 ${continue_button}   //*[@id="app"]/div[2]/div/div/div[2]/div/div[1]/div/div/div[2]/button/div
-${accept_cookies}  //*[@id="diffuse-cookie-notice"]/div/div/div/div[2]/button[3]
-${login_button}  //*[@id="app"]/div/main/div/div/div/div/div/div[2]/button[2]
 ${dataset_continue_button}   //*[@id="app"]/div[2]/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/div/div[2]/button/div
 ${slide_button}   //*[@id="app"]/div[2]/div/div/div[2]/div/div[3]/div/div/nav/div/div[3]/div[2]/div[1]/div/input
 ${e-mail}  ann.christine.phan@iths.se
