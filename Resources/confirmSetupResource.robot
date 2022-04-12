@@ -1,5 +1,5 @@
 *** Variables ***
-${add_model_button}   //*[@id="app"]/div[6]/div[1]/main/div/div/div[1]/nav/div[1]/a/div
+${new_model_button}   //*[@id="app"]/div[6]/div[1]/main/div/div/div[1]/nav/div[1]/a/div
 ${continue_button}   //*[@id="app"]/div[2]/div/div/div[2]/div/div[1]/div/div/div[2]/button/div
 ${dataset_continue_button}   //*[@id="app"]/div[2]/div/div/div[2]/div/div[2]/div/div[3]/div/div[2]/div/div/div[2]/button/div
 ${slide_button}   //*[@id="app"]/div[2]/div/div/div[2]/div/div[3]/div/div/nav/div/div[3]/div[2]/div[1]/div/input
@@ -12,7 +12,7 @@ Verify Correct Workspace
     Sleep  5s
 
 Press Existing Model
-    Click Element  ${add_model_button}
+    Click Element  ${new_model_button}
     Sleep  5s
     Click Button  ${continue_button}
     Sleep  5s
