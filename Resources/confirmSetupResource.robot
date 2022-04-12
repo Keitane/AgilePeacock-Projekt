@@ -11,10 +11,10 @@ Verify Correct Workspace
     Go To  https://app.labelf.ai/main/376/models/view
 
 Press Existing Model
-    Click Element ${add_model_button}
-    Click Button ${continue_button}
-    Click Button ${dataset_continue_button}
-    Click Element ${slide_button}
+    Click Element  ${add_model_button}
+    Click Button  ${continue_button}
+    Click Button  ${dataset_continue_button}
+    Click Element  ${slide_button}
 
 Verify Setup
     Wait Until Page Contains   Select the column which contains the labels
