@@ -1,7 +1,7 @@
 *** Variables ***
 ${e-mail}  oskar.hagman@iths.se
 ${password}  123456789
-${e_mail2}   ann.christine.phan@iths.se
+${e-mail2}   ann.christine.phan@iths.se
 
 *** Keywords ***
 Start WebTest
