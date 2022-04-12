@@ -9,6 +9,7 @@ ${password}  123456789
 *** Keywords ***
 Verify Correct Workspace
     Go To  https://app.labelf.ai/main/376/models/view
+    Sleep  5s
 
 Press Existing Model
     Click Element  ${add_model_button}
