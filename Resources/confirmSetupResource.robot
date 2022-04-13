@@ -1,6 +1,6 @@
 *** Variables ***
 ${slide_button2}   //*[@id="app"]/div[2]/div/div/div[2]/div/div[3]/div/div/nav/div/div[3]/div[2]/div[1]/div/div[1]
-# ^ Knappen som heter "Train directly on labels from an existing column" är en slide-knapp
+# ^ Knappen som heter "Train directly on labels from an existing column" är denne slide-knapp
 ${password}  123456789
 
 *** Keywords ***
