@@ -1,7 +1,7 @@
 *** Variables ***
 ${e-mail}  oskar.hagman@iths.se
 ${password}  123456789
-#${e-mail2}   ann.christine.phan@iths.se
+${e-mail2}   ann.christine.phan@iths.se
 
 *** Keywords ***
 Start WebTest
@@ -15,7 +15,7 @@ End WebTest
     Close All Browsers
 
 Enter Account Information
-    Input Text  //*[@id="app"]/div/main/div/div/div/div/div/div[1]/form/div[1]/div[2]/div[1]/div/input   ${e-mail}
+    Input Text  //*[@id="app"]/div/main/div/div/div/div/div/div[1]/form/div[1]/div[2]/div[1]/div/input   ${e-mail2}
     Input Text  //*[@id="password"]  ${password}
     Wait Until Page Contains  Labelf
 
