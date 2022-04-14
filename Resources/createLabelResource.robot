@@ -34,6 +34,9 @@ Login
     Press Login Button
     Verify Login
 
+#Koden som ligger överst här är för att man inte ska ändra mainResource; för att jag har min egna workspace på mitt egna konto
+#Därför har jag koden här så att den kan loggas in på rätt workspace
+
 Log In To Personal Workspace
     Login
     Go To  https://app.labelf.ai/main/376/models/view

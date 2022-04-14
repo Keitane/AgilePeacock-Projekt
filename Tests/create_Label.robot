@@ -15,6 +15,3 @@ User can add a label to a trained customer suppport model and verify that it wor
     Log In To Personal Workspace
     Input New Label To Trained Model
     Verify Added Label
-#    Given  that a model is trained with support ticket data
-#    When  a representative example from the dataset is input to the test your model
-#    Then  the categorization matches the label of the original dataset
