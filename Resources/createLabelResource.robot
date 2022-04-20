@@ -9,7 +9,7 @@ ${category_account}   //*[@id="app"]/div[7]/div[1]/main/div/div/div[2]/div/div[1
 *** Keywords ***
 
 Start WebTest
-    Open Browser  about:blank  chrome
+    Open Browser  about:blank  headlesschrome
     Maximize Browser Window
     Go To  https://app.labelf.ai/login
     Wait Until Element Is Visible  //*[@id="diffuse-cookie-notice"]/div/div/div/div[2]/div
