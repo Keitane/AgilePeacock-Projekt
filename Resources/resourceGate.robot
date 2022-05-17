@@ -11,7 +11,6 @@ ${from-scratch-continue-button}   //*[@id="app"]/div[2]/div/div/div[2]/div/div[1
 ${housing-continue-button}   //*[@id="continue-dataset-card"]/div
 ${customer-support-continue-button}   //*[@id="continue-dataset-card"]/div
 
-
 *** Settings ***
 Resource  ./Sprint_1/mainResource.robot
 Resource  ./Sprint_1/deleteModelResources.robot
